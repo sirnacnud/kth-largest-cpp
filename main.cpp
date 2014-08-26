@@ -142,8 +142,8 @@ int main
     const char* aArgv[]     //!< Command line arguments
     )
 {
-    std::vector<int> numbers;
     int kth = 0;
+    std::vector<int> numbers;
 
     if( aArgc > 2 )
     {
@@ -161,7 +161,6 @@ int main
                 int number;
                 if( stream >> number )
                 {
-                    //std::cout << number <<std::endl;
                     numbers.push_back( number );
                 }
             }
